@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll a Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <button class="btn" id="newGame"><i class="fa-solid fa-recycle"></i> NEW GAME</button>
+    <button class="btn" id="rollDice"><i class="fa-solid fa-cubes"></i> ROLL DICE</button>
+    <button class="btn" id="hold"><i class="fa-regular fa-chess-pawn"></i> HOLD</button>
+
+    <div class="dice">
+        <img id="diceImage" src="./Assets/1.webp" alt="Dice">
+    </div>
+
+    <div class="mainContainer">
+        <div class="player1Area">
+            <div class="player1Title">
+                <h1 id="player1Name">PLAYER 1</h1>
+                <h1 id="player1Score">0</h1>
+            </div>
+            <div class="player1CurrentScoreArea">
+                <p>CURRENT</p>
+                <h3 id="player1CurrentScore">0</h3>
+            </div>
+        </div>
+        <div class="player2Area">
+            <div class="player2Title">
+                <h1 id="player2Name">PLAYER 2</h1>
+                <h1 id="player2Score">0</h1>
+            </div>
+            <div class="player2CurrentScoreArea">
+                <p>CURRENT</p>
+                <h3 id="player2CurrentScore">0</h3>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

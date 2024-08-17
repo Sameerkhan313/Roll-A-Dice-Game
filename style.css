@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(221, 4, 4), rgb(48, 7, 4));
+}
+
+.btn{
+    height: 30px;
+    width: auto;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#newGame{
+    margin-bottom: 400px;
+}
+
+#rollDice{
+    margin-bottom: -270px;
+}
+
+#hold{
+    margin-bottom: -350px;
+}
+
+
+.dice{
+    width: auto;
+    height: auto;
+    /* background-color: black; */
+    position: absolute;
+    margin-top: -100px;
+}
+.mainContainer {
+    width: 65%;
+    height: 90%;
+    border-radius: 2%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.player1Area {
+    background-color: rgb(241, 188, 188);
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#player1Name {
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+
+}
+
+#player1Score{
+    font-size: 4rem;
+    color: rgba(221, 4, 4);
+}
+
+.player1CurrentScoreArea{
+    width: auto;
+    height: auto;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 8%;
+    gap: 5px;
+    background-color: rgba(221, 4, 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#player1CurrentScore{
+    font-size: 30px;
+}
+
+.player2Area {
+    background-color: rgba(236, 129, 129, 0.562);
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#player2Name {
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+
+}
+
+#player2Score{
+    font-size: 4rem;
+    color: rgba(221, 4, 4);
+}
+
+.player2CurrentScoreArea{
+    width: auto;
+    height: auto;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 8%;
+    gap: 5px;
+    background-color: rgba(221, 4, 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#player2CurrentScore{
+    font-size: 30px;
+}
